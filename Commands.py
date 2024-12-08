@@ -205,11 +205,22 @@ def Comm(Usrn, Com, Pth):
         print("""The following commands can be run
               About: Talks about this program
               License, Exit, Help
-              Sysrun: Allows you to run like you would in your system terminal""")
+              Sysrun: Allows you to run like you would in your system terminal
+              Drchange: Change Folder""")
     elif Com == "Sysrun":
         print("Enter your system command below.")
         InerCom = input(f"{Pth}>")
         subprocess.run(InerCom, shell=True)
         print("\n")
+
+    #TODO: Add Change Path
+    elif Com == "Drchange":
+        Dr = input("The new path: ")
+        try:
+        # Change to a specific directory
+            os.chdir(Dr)
+            print("Current working directory:", os.getcwd())
+        except:
+            print("Change Failed\n")
     else:
         print(f"The command \"{Com}\" is not a command for {Usrn}.\n")
