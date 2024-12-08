@@ -1,3 +1,6 @@
+import os
+import time
+
 def Comm(Usrn, Com):
     Com = Com.strip().lower().capitalize()
     if Com == "":
@@ -193,5 +196,9 @@ def Comm(Usrn, Com):
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS""")
+    elif Com == "Exit":
+        print(f"Good bye, {Usrn}!\nThank you for using HfTerm.")
+        time.sleep(3)  # Waits for 3 seconds
+        os.system('cls' if os.name == 'nt' else 'clear')
     else:
         print(f"The command \"{Com}\" is not a command for {Usrn}.\n")
