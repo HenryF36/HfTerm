@@ -35,10 +35,9 @@ WHERE name = %s;
 cursor.execute(query, (사용자,))
 
 # Fetch the result
-user_data = cursor.fetchone()
+user_data = cursor.fetchone() # Fetch One
 
 if user_data:
-    print(f"User '{사용자}' exists.")
     passEntered = input("Enter Password: ").strip()
     
     # Compare hashed passwords
@@ -80,7 +79,7 @@ if Good:
     # Command loop
     while True:
         com = input(f"{사용자}@{os.getcwd()}> ")
-        Comm(사용자, com)
+        Comm(사용자, com, os.getcwd())
 
 # Commit changes and close the connection
 mydb.close()

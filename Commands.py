@@ -1,7 +1,8 @@
 import os
 import time
+import subprocess
 
-def Comm(Usrn, Com):
+def Comm(Usrn, Com, Pth):
     Com = Com.strip().lower().capitalize()
     if Com == "":
          print("")
@@ -201,11 +202,14 @@ def Comm(Usrn, Com):
         time.sleep(3)  # Waits for 3 seconds
         os.system('cls' if os.name == 'nt' else 'clear')
     elif Com == "Help":
-        print("""The following commands can be run"
+        print("""The following commands can be run
               About: Talks about this program
               License, Exit, Help
               Sysrun: Allows you to run like you would in your system terminal""")
-    #elif Com == "Sysrun":
-
+    elif Com == "Sysrun":
+        print("Enter your system command below.")
+        InerCom = input(f"{Pth}>")
+        subprocess.run(InerCom, shell=True)
+        print("\n")
     else:
         print(f"The command \"{Com}\" is not a command for {Usrn}.\n")
