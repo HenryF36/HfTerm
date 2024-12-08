@@ -1,3 +1,16 @@
 
+/build/*
+/build/Start/*
+*.html
 /build
 /build/Start
+/__pycache__
+build/Start/xref-Start.html
+build/Start/warn-Start.txt
+build/Start/Start.pkg
+build/Start/warn-Start.txt
+build/Start/xref-Start.html
+build/Start/PYZ-00.toc
+build/Start/EXE-00.toc
+build/Start/PYZ-00.pyz
+build/Start/Analysis-00.toc

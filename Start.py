@@ -2,6 +2,8 @@ import sqlite3
 import os
 import hashlib
 
+from Commands import Comm
+
 # Connect to SQLite database (creates file if it doesn't exist)
 connection = sqlite3.connect("HFterm.db")
 
@@ -75,6 +77,7 @@ if Good:
     # Command loop
     while True:
         com = input(f"{사용자}@{os.getcwd()}> ")
+        Comm(사용자, com)
 
 # Commit changes and close the connection
 connection.close()
