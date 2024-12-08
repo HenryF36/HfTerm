@@ -200,5 +200,12 @@ def Comm(Usrn, Com):
         print(f"Good bye, {Usrn}!\nThank you for using HfTerm.")
         time.sleep(3)  # Waits for 3 seconds
         os.system('cls' if os.name == 'nt' else 'clear')
+    elif Com == "Help":
+        print("""The following commands can be run"
+              About: Talks about this program
+              License, Exit, Help
+              Sysrun: Allows you to run like you would in your system terminal""")
+    #elif Com == "Sysrun":
+
     else:
         print(f"The command \"{Com}\" is not a command for {Usrn}.\n")

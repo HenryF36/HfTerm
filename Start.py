@@ -12,7 +12,6 @@ mydb = mysql.connector.connect(
 )
 
 cursor = mydb.cursor()  # Create a cursor object
-
 # Create the users table if it doesn't exist
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS users (
