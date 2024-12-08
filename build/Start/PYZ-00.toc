@@ -1,5 +1,6 @@
 ('H:\\Term\\build\\Start\\PYZ-00.pyz',
- [('__future__',
+ [('Commands', 'H:\\Term\\Commands.py', 'PYMODULE'),
+  ('__future__',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py',
    'PYMODULE'),
@@ -14,6 +15,10 @@
   ('_compression',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('_ios_support',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\_ios_support.py',
    'PYMODULE'),
   ('_opcode_metadata',
    'C:\\Program '
@@ -63,13 +68,9 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\calendar.py',
    'PYMODULE'),
-  ('code',
+  ('configparser',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\code.py',
-   'PYMODULE'),
-  ('codeop',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\codeop.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\configparser.py',
    'PYMODULE'),
   ('contextlib',
    'C:\\Program '
@@ -86,6 +87,38 @@
   ('csv',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\util.py',
    'PYMODULE'),
   ('dataclasses',
    'C:\\Program '
@@ -194,6 +227,10 @@
   ('getopt',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\getpass.py',
    'PYMODULE'),
   ('gettext',
    'C:\\Program '
@@ -331,6 +368,99 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\lzma.py',
    'PYMODULE'),
+  ('mysql',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.abstracts',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\abstracts.py',
+   'PYMODULE'),
+  ('mysql.connector.authentication',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\authentication.py',
+   'PYMODULE'),
+  ('mysql.connector.charsets',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\charsets.py',
+   'PYMODULE'),
+  ('mysql.connector.connection',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\connection.py',
+   'PYMODULE'),
+  ('mysql.connector.connection_cext',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\connection_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.constants',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\constants.py',
+   'PYMODULE'),
+  ('mysql.connector.conversion',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\conversion.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\cursor.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor_cext',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\cursor_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.custom_types',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\custom_types.py',
+   'PYMODULE'),
+  ('mysql.connector.dbapi',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\dbapi.py',
+   'PYMODULE'),
+  ('mysql.connector.errorcode',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\errorcode.py',
+   'PYMODULE'),
+  ('mysql.connector.errors',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\errors.py',
+   'PYMODULE'),
+  ('mysql.connector.locales',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\locales\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.logger',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\logger.py',
+   'PYMODULE'),
+  ('mysql.connector.network',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\network.py',
+   'PYMODULE'),
+  ('mysql.connector.opentelemetry',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\opentelemetry\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.opentelemetry.constants',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\opentelemetry\\constants.py',
+   'PYMODULE'),
+  ('mysql.connector.opentelemetry.context_propagation',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\opentelemetry\\context_propagation.py',
+   'PYMODULE'),
+  ('mysql.connector.opentelemetry.instrumentation',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\opentelemetry\\instrumentation.py',
+   'PYMODULE'),
+  ('mysql.connector.optionfiles',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\optionfiles.py',
+   'PYMODULE'),
+  ('mysql.connector.plugins',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\plugins\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.plugins.caching_sha2_password',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\plugins\\caching_sha2_password.py',
+   'PYMODULE'),
+  ('mysql.connector.pooling',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\pooling.py',
+   'PYMODULE'),
+  ('mysql.connector.protocol',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\protocol.py',
+   'PYMODULE'),
+  ('mysql.connector.tls_ciphers',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\tls_ciphers.py',
+   'PYMODULE'),
+  ('mysql.connector.types',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\types.py',
+   'PYMODULE'),
+  ('mysql.connector.utils',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\utils.py',
+   'PYMODULE'),
+  ('mysql.connector.version',
+   'C:\\Users\\Henry\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\version.py',
+   'PYMODULE'),
   ('numbers',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\numbers.py',
@@ -355,6 +485,10 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\pickle.py',
    'PYMODULE'),
+  ('platform',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\platform.py',
+   'PYMODULE'),
   ('pprint',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\pprint.py',
@@ -362,6 +496,10 @@
   ('py_compile',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\queue.py',
    'PYMODULE'),
   ('quopri',
    'C:\\Program '
@@ -387,21 +525,9 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\socket.py',
    'PYMODULE'),
-  ('sqlite3',
+  ('ssl',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\__init__.py',
-   'PYMODULE'),
-  ('sqlite3.__main__',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\__main__.py',
-   'PYMODULE'),
-  ('sqlite3.dbapi2',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\dbapi2.py',
-   'PYMODULE'),
-  ('sqlite3.dump',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\sqlite3\\dump.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\ssl.py',
    'PYMODULE'),
   ('statistics',
    'C:\\Program '
@@ -458,6 +584,10 @@
   ('urllib.parse',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\\Lib\\uuid.py',
    'PYMODULE'),
   ('zipfile',
    'C:\\Program '
