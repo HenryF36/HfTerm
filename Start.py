@@ -1,20 +1,24 @@
-import sqlite3
+import mysql.connector
 import os
 import hashlib
-
 from Commands import Comm
 
-# Connect to SQLite database (creates file if it doesn't exist)
-connection = sqlite3.connect("HFterm.db")
+# Connect to MySQL database
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="HFterm",    # Replace with your MySQL username
+  password="HFHF",  # Replace with your MySQL password
+  database="HFterm"         # The database you created earlier
+)
 
-cursor = connection.cursor()  # Create a cursor object
+cursor = mydb.cursor()  # Create a cursor object
 
 # Create the users table if it doesn't exist
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS users (
-    id INTEGER PRIMARY KEY, 
-    name TEXT UNIQUE, 
-    password TEXT
+    id INT AUTO_INCREMENT PRIMARY KEY, 
+    name VARCHAR(255) UNIQUE, 
+    password VARCHAR(255)
 )
 """)
 print("Welcome to SQLstore Python!")
@@ -27,7 +31,7 @@ print("Welcome to SQLstore Python!")
 query = """
 SELECT password 
 FROM users 
-WHERE name = ?;
+WHERE name = %s;
 """
 cursor.execute(query, (사용자,))
 
@@ -59,7 +63,7 @@ else:
         hashed_password = hashlib.sha256(p1.encode()).hexdigest()
         
         # Insert the new user into the database
-        insert_query = "INSERT INTO users (name, password) VALUES (?, ?)"
+        insert_query = "INSERT INTO users (name, password) VALUES (%s, %s)"
         cursor.execute(insert_query, (사용자, hashed_password))
         print(f"User '{사용자}' has been created.")
         Good = True
@@ -69,7 +73,7 @@ else:
 
 if Good:
     os.system('cls' if os.name == 'nt' else 'clear')
-    connection.commit()
+    mydb.commit()  # Commit changes to the MySQL database
     print(f"HfTerm (c) 2024 under the Apache License 2.0 ")
     print(f"Currently Running at {os.getcwd()}")
     print("")
@@ -80,4 +84,4 @@ if Good:
         Comm(사용자, com)
 
 # Commit changes and close the connection
-connection.close()
+mydb.close()
