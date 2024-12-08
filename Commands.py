@@ -2,7 +2,7 @@ import os
 import time
 import subprocess
 
-def Comm(Usrn, Com, Pth):
+def Comm(Usrn, Com):
     Com = Com.strip().lower().capitalize()
     if Com == "":
          print("")
